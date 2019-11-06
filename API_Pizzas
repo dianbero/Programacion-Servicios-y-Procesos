@@ -1,0 +1,27 @@
+que se pueda pedir listado de pizzas
+nombrepizza
+tipoMasa
+
+Enunciado:
+
+-se puede pedir listado de todas las pizzas
+pizzas: (están de finidas por:)
+nombre
+ingrediente
+tipo de masa
+precio
+
+-también se puede pedir listado de pizzas que tengan un tipo de masa concreto
+pizza tal tiene masa fina
+
+-Se pueden filtrar la pizzas, se pueden pedir pizzas que tengan un ingrediente concreto-
+
+-que se pueda pedir listado de ingredientes
+-también se pueden pedir los tipos de masa que hay
+
+-borrar pizza concreta
+-actualizar pizza concreta
+
+-actualizar masa concreta
+-borrar ingrediente concreto (respuesta error, en caso de querer borrar un ingrediente que
+está siendo usado por una pizza, lanza un error del tipo que sea(500 por el servidor, o algo así)).
