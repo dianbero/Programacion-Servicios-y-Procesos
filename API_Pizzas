@@ -25,3 +25,144 @@ pizza tal tiene masa fina
 -actualizar masa concreta
 -borrar ingrediente concreto (respuesta error, en caso de querer borrar un ingrediente que
 está siendo usado por una pizza, lanza un error del tipo que sea(500 por el servidor, o algo así)).
+
+----------------------------------------------------------------------------------------------------
+Comienza Ejercicio:
+----------------------------------------------------------------------------------------------------
+
+1- Todas las pizzas
+
+Petición Listado de todas las pizzas:
+
+GET /rest/pizza HTTP/1.1
+Host: www.server.com
+Accept: applicaction/json
+
+Respuesta:
+
+HTTP/1.1 200 Ok
+Content-Type: application/json; charset=utf-8
+[{
+"nombre": "http://www.server.com/rest/pizza/margarita
+"ingrediente": "tomate"
+"ingrediente": "queso"
+tipo_de_masa": "gruesa"
+"precio": {"moneda":"€", "cantidad": 10}
+},
+{
+"nombre": "http://www.server.com/rest/pizza/barbacoa
+"ingrediente": "tomate"
+"ingrediente": "queso"
+"ingrediente": "salsa barbacoa"
+"ingrediente": "carne"
+"ingrediente": "bacon"
+tipo_de_masa": "fina"
+"precio": {"moneda":"€", "cantidad": 15}
+}]
+
+2-Filtrar pizzas por tipo de masa:
+
+GET /rest/pizza?tipo_de_masa=fina HTTP/1.1
+Host: www.server.com
+Accept: application/json
+
+3- Filtrar pizzas por ingrediente:
+
+GET rest/pizza?ingrediente=carne HTTP/1.1
+Host: www.server.com
+Accept: application/json
+
+
+4-Pedir Listado ingredientes:
+GET /rest/pizza/ingrediente HTTP/1.1
+Host: www.server.com
+Accept: application/json
+
+Respuesta:
+
+HTTP/1.1 200 Ok 
+Content-Type: application/json;charset=utf-8	
+
+["http://www.server.com/rest/pizza/ingrediente/tomate",
+"http://www.server.com/rest/pizza/ingrediente/queso",
+"http://www.server.com/rest/pizza/ingrediente/carne",
+"http://www.server.com/rest/pizza/ingrediente/salsa_barbacoa",
+"http://www.server.com/rest/pizza/ingrediente/bacon"]
+
+5-Pedir listado tipos de masa:
+
+GET /rest/pizza/masa HTTP/1.1
+Host: www.server.com
+Accept: application/json
+
+Respuesta:
+
+HTTP/1.1 200 Ok 
+Content-Type: application/json;charset=utf-8	
+
+["http://www.server.com/rest/pizza/masa/gruesa",
+"http://www.server.com/rest/pizza/masa/fina"]
+
+6-Borrar pizza concreta
+
+Peticiones:
+DELETE /rest/pizza/margarita HTTP/1.1
+Host: www.server.com
+
+Respuesta:
+HTTP/1.1 204 no Content
+
+7- Actualizar pizza concreta
+
+PUT /rest/pizza/margarita HTTP/1.1
+Host: www.server.com
+Accept: application/json
+Content-Type: application/json   //se incluye porque indica el tipo de los datos que se envían para actualizar
+
+{
+"nombre": "http://www.server.com/rest/pizza/margarita
+"ingrediente": "tomate"
+"ingrediente": "queso"
+tipo_de_masa": "fina"
+"precio": {"moneda":"€", "cantidad": 13}
+}
+
+Respuesta:
+HTTP/1.1 204 No Content
+
+8-Actualizar masa concreta:
+
+PUT /rest/pizza/masa HTTP/1.1
+Host: www.server.com
+Accept: application/json
+Content-Type: application/json
+
+Respuesta:
+["http://www.server.com/rest/pizza/masa/gruesa"]
+
+9-Borrar ingrediente concreto:
+
+Peticiones:
+DELETE /rest/pizza/ingrediente/tomate HTTP/1.1
+Host: www.server.com
+
+Respuesta:
+HTTP/1.1 500  INTERNAL SERVER ERROR
+
+
+10-Crear pizza
+
+HTTP/1.1 201 Created
+Location: http://www.server.com/rest/pizza/hawaiana 
+Conten-Type: applicatio/json;charset=utf-8
+
+{
+"nombre": "http://www.server.com/rest/pizza/margarita
+"ingrediente": "tomate"
+"ingrediente": "queso"
+"ingrediente": "piña"
+tipo_de_masa": "fina"
+"precio": {"moneda":"€", "cantidad": 6}
+}
+
+
