@@ -29,10 +29,12 @@ está siendo usado por una pizza, lanza un error del tipo que sea(500 por el ser
 ----------------------------------------------------------------------------------------------------
 Comienza Ejercicio:
 ----------------------------------------------------------------------------------------------------
+URIS
 
-1- Todas las pizzas
+/Pizza/{id}
+/Ingredientes/{id}
 
-Petición Listado de todas las pizzas:
+1- Petición Listado de todas las pizzas:
 
 GET /rest/pizza HTTP/1.1
 Host: www.server.com
@@ -44,31 +46,45 @@ HTTP/1.1 200 Ok
 Content-Type: application/json; charset=utf-8
 [{
 "nombre": "http://www.server.com/rest/pizza/margarita
-"ingrediente": "tomate"
-"ingrediente": "queso"
+"ingrediente": ["tomate", "queso"]
 tipo_de_masa": "gruesa"
 "precio": {"moneda":"€", "cantidad": 10}
 },
 {
 "nombre": "http://www.server.com/rest/pizza/barbacoa
-"ingrediente": "tomate"
-"ingrediente": "queso"
-"ingrediente": "salsa barbacoa"
-"ingrediente": "carne"
-"ingrediente": "bacon"
+"ingrediente": ["tomate", "queso", "salsa_barbacoa", "carne", "bacon"] //Otra opción, poner sólo una línea de ingredientes y pasar el enlace de los 
 tipo_de_masa": "fina"
 "precio": {"moneda":"€", "cantidad": 15}
 }]
 
+//O con enlace, que se hará dependiendo de la información
+["http://www.server.com/rest/pizza/margarita",
+"http://www.server.com/rest/pizza/barbacoa",
+"http://www.server.com/rest/pizza/hawaiana"]
+
+Respuesta:
+HTTP/1.1 200 Ok
+Content-Type: application/json;charset=utf-8
+
+Error:
+HTTP/1.1 406 Not Acceptable //Cuando no devuelve ningún dato
+
+HTTP/1.1 404 Not Found //Cuando damos una ruta que no existe //Es un error posible para cualquier tipo de petición que realicemos
+
 2-Filtrar pizzas por tipo de masa:
 
 GET /rest/pizza?tipo_de_masa=fina HTTP/1.1
+
 Host: www.server.com
 Accept: application/json
 
 3- Filtrar pizzas por ingrediente:
 
-GET rest/pizza?ingrediente=carne HTTP/1.1
+//GET rest/pizza?ingrediente=carne HTTP/1.1
+
+GET rest/pizza?ingrediente={id} HTTP/1.1
+
+GET rest/pizza?ingrediente=3 HTTP/1.1
 Host: www.server.com
 Accept: application/json
 
@@ -103,6 +119,7 @@ Content-Type: application/json;charset=utf-8
 ["http://www.server.com/rest/pizza/masa/gruesa",
 "http://www.server.com/rest/pizza/masa/fina"]
 
+
 6-Borrar pizza concreta
 
 Peticiones:
@@ -114,7 +131,7 @@ HTTP/1.1 204 no Content
 
 7- Actualizar pizza concreta
 
-PUT /rest/pizza/margarita HTTP/1.1
+PUT /rest/pizza/margarita HTTP/1.1 //Se manda el objeto completo
 Host: www.server.com
 Accept: application/json
 Content-Type: application/json   //se incluye porque indica el tipo de los datos que se envían para actualizar
@@ -152,6 +169,9 @@ HTTP/1.1 500  INTERNAL SERVER ERROR
 
 10-Crear pizza
 
+POST /Pizza
+
+//Petición
 HTTP/1.1 201 Created
 Location: http://www.server.com/rest/pizza/hawaiana 
 Conten-Type: applicatio/json;charset=utf-8
@@ -164,5 +184,15 @@ Conten-Type: applicatio/json;charset=utf-8
 tipo_de_masa": "fina"
 "precio": {"moneda":"€", "cantidad": 6}
 }
+
+Respuesta:
+HTTP/1.1 201 Created
+Location: http://www.server.com/rest/pizza/hawaiana 
+Conten-Type: applicatio/json;charset=utf-8
+
+//Falta crear ingrediente
+
+
+
 
 
