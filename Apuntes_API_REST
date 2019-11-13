@@ -1,0 +1,27 @@
+Apuntes API REST:
+
+//Clase Request:
+
+la variable $_SERVER: se recibe información del servidor, simplemente se guarda en una variable, para usarla.
+
+en path_info se recoge informacióon del objeto concreto (Ej: sevidor/index.php/libro)
+
+url_elements: separa la información de la ruta y guarda en unarray esos elementos.
+
+file_get_content: coge el contenido de un fichero y lo guarda en una variable. Ahí. se recogería el cuerpo de la petición.
+
+En un objeo Request decogemos la petición.
+
+ucfirst: pone en mayúscula la primera letra
+
+función de autocarga, cuando no encuentre el controlador, llama a al objeto.
+si existe el fichero, hace un require once.
+
+La clase Response es la encargada de la respuesta.
+
+los parémetros los guardaraá en json.
+
+//Clase response:
+ig@...
+
+

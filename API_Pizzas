@@ -30,15 +30,21 @@ está siendo usado por una pizza, lanza un error del tipo que sea(500 por el ser
 Comienza Ejercicio:
 ----------------------------------------------------------------------------------------------------
 URIS
-
-/Pizza/{id}
+/Pizzas
+/Pizzas/{id}
+/Ingrdientes
 /Ingredientes/{id}
+/Masas
+/Masas/{id}
+
 
 1- Petición Listado de todas las pizzas:
 
+//Petición
 GET /rest/pizza HTTP/1.1
 Host: www.server.com
 Accept: applicaction/json
+//Fin petición
 
 Respuesta:
 
@@ -47,7 +53,7 @@ Content-Type: application/json; charset=utf-8
 [{
 "nombre": "http://www.server.com/rest/pizza/margarita
 "ingrediente": ["tomate", "queso"]
-tipo_de_masa": "gruesa"
+"tipo_de_masa": "gruesa"
 "precio": {"moneda":"€", "cantidad": 10}
 },
 {
