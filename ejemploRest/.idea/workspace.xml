@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00eb7edd-541c-4d85-b485-05154dce2bdb" name="Default Changelist" comment="" />
+    <list default="true" id="452db8b4-f249-48d5-88ac-9a3a9f076b5c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,16 +16,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1Satodshy6lLS8fVVeYJDBOeW63" />
+  <component name="ProjectId" id="1TYTNOxihVQA5pEnwxYn4OfwRHs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Tablas" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -44,15 +38,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="00eb7edd-541c-4d85-b485-05154dce2bdb" name="Default Changelist" comment="" />
-      <created>1571813710940</created>
+      <changelist id="452db8b4-f249-48d5-88ac-9a3a9f076b5c" name="Default Changelist" comment="" />
+      <created>1573635988720</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571813710940</updated>
-      <workItem from="1571813712186" duration="2196000" />
-      <workItem from="1572349131896" duration="419000" />
-      <workItem from="1572420447226" duration="2128000" />
-      <workItem from="1573635559744" duration="433000" />
+      <updated>1573635988720</updated>
+      <workItem from="1573635991114" duration="768000" />
     </task>
     <servers />
   </component>
@@ -64,9 +55,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>

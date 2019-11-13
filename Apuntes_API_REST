@@ -25,3 +25,17 @@ los parémetros los guardaraá en json.
 ig@...
 
 
+configurar servidor en phpstorm:
+
+tools ->deployment-> configuration
+host: nombre carpeta servidor (biblioteca.devel)
+user name:vagrant
+password:vagrant
+
+root path: /var/www/biblioteca.devel
+web server URL: http://biblioteca.devel
+
+
+
+
+
