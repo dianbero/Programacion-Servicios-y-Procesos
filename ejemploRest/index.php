@@ -2,7 +2,7 @@
 
 require_once "Request.php";
 require_once "Response.php";
-
+//comentario
 //Autoload rules
 spl_autoload_register('apiAutoload');
 function apiAutoload($classname)

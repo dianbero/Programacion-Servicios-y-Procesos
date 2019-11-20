@@ -16,6 +16,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="biblioteca.devel" id="7fa415d9-993a-45f0-846f-611d18b7eb35" name="biblioteca.devel" port="8080" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/var/www/biblioteca.devel" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" deployment_server_id="627e3a76-a47f-4da9-b190-4eaf40e6316e" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="REMOTE" web_path_to_validation_script="http://127.0.0.1/" />
   <component name="ProjectId" id="1TYTNOxihVQA5pEnwxYn4OfwRHs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -33,6 +43,11 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="PEDIR LIBROS" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request" server_name="biblioteca.devel" url="/libro">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -45,6 +60,7 @@
       <updated>1573635988720</updated>
       <workItem from="1573635991114" duration="768000" />
       <workItem from="1574161093195" duration="1267000" />
+      <workItem from="1574234535627" duration="6707000" />
     </task>
     <servers />
   </component>
@@ -63,5 +79,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/index.php</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
