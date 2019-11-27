@@ -87,4 +87,19 @@ class LibroHandlerModel
         return $res;
     }
 
+    //Hecho por Diana:
+
+    public static function deteleLibro($id){
+        $Listalibros = null;
+        $baseDatos = DatabaseModel::getInstance();
+        $conexion = $baseDatos->getConnection();
+
+        $valid = self::isValid();
+
+        //Si el id es valido
+        if($valid===true || $id==null){
+            $querySql = "DELETE "
+        }
+    }
+
 }
