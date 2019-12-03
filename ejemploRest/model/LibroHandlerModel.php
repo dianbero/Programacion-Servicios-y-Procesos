@@ -87,19 +87,64 @@ class LibroHandlerModel
         return $res;
     }
 
-    //Hecho por Diana:
+    //Insertar (POST)
 
+    //Devuelve boolean exito: true si hace inserción/ false si falla
+    public static function insertarLibro($nuevoLibro){
+        $db = DatabaseModel::getInstance();
+        $db_connection = $db->getConnection();
+
+        $titulo = $nuevoLibro->getTitulo();
+        $codigo = $nuevoLibro->getCodigo();
+        $numpag = $nuevoLibro->getNumpag();
+
+        $sentenciaSql = "INSERT INTO " . \ConstantesDB\ConsLibrosModel::TABLE_NAME . " VALUES (?,?,?);";
+        $prep_query = $db_connection->prepare($sentenciaSql);
+        //Paso parámetros al prepareStatement
+        $prep_query->bind_param("isi", $codigo, $titulo, $numpag);
+        $exito = $prep_query->execute();
+        return $exito;
+    }
+
+    //Actualizar (PUT)
+
+    //Devuelve boolean exito: true si actualiza/ false si falla
+    public static function actualizarLibro($nuevoLibro){
+        $db = DatabaseModel::getInstance();
+        $db_connection = $db->getConnection();
+
+        $codigo = $nuevoLibro->getCodigo();
+        $titulo = $nuevoLibro->getTitulo();
+        $numpag = $nuevoLibro->getNumpag();
+
+        $sentenciaSql = "UPDATE " . \ConstantesDB\ConsLibrosModel::TABLE_NAME
+            . " SET " .\ConstantesDB\ConsLibrosModel::COD . " = ?, "
+            .  \ConstantesDB\ConsLibrosModel::TITULO . " = ? 
+            WHERE " . \ConstantesDB\ConsLibrosModel::PAGS ." = ?";
+
+        $prep_query = $db_connection->prepare($sentenciaSql);
+        //Paso parámetros al prepareStatement
+        $prep_query->bind_param("isi",$codigo, $titulo, $numpag);
+        $exito = $prep_query->execute();
+
+        return $exito;
+    }
+
+    //Borrar (DELETE)
+
+    //Devuelve boolean exito: true si borra/ false si falla
     public static function deteleLibro($id){
-        $Listalibros = null;
-        $baseDatos = DatabaseModel::getInstance();
-        $conexion = $baseDatos->getConnection();
+        $db = DatabaseModel::getInstance();
+        $db_connection = $db->getConnection();
 
-        $valid = self::isValid();
+        $sentenciaSql = "DELETE FROM " . \ConstantesDB\ConsLibrosModel::TABLE_NAME . " WHERE " . \ConstantesDB\ConsLibrosModel::COD . " = ? ";
+        $prep_query = $db_connection->prepare($sentenciaSql);
 
-        //Si el id es valido
-        if($valid===true || $id==null){
-            $querySql = "DELETE "
-        }
+        //Paso parámetros al prepareStatement
+        $prep_query->bind_param("i",$codigo);
+        $exito = $prep_query->execute();
+
+        return $exito;
     }
 
 }
