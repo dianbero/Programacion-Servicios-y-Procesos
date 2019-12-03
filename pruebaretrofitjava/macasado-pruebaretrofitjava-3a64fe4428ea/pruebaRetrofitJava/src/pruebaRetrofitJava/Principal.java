@@ -30,7 +30,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class Principal {
 	
 //	private final static String SERVER_URL = "http://lumenrest.dev";
-	private final static String SERVER_URL = "http://biblioteca.devel";
+	private final static String SERVER_URL = "http://biblioteca.devel:8080/";
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -47,7 +47,7 @@ public class Principal {
 
 		libroInter.getLibro(1).enqueue(libroCallback);
 
-		//Modificaciones Diana
+
 		
 
 	}

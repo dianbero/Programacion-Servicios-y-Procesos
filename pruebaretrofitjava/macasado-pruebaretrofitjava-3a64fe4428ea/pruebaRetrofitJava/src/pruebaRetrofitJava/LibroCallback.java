@@ -36,10 +36,6 @@ public class LibroCallback implements Callback<Libro>{
 	
 	System.out.println(libro.getId()+" "+libro.getTitulo()+" "+libro.getNumpag());
 
-    
-
-		
 	}
-	
 
 }
