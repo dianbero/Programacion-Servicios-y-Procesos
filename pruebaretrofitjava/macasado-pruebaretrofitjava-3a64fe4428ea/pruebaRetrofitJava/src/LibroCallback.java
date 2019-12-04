@@ -12,7 +12,7 @@ public class LibroCallback implements Callback<Libro>{
 	public void onFailure(Call<Libro> arg0, Throwable arg1) {
 		// TODO Auto-generated method stub
 		int i;
-		
+
 		i=0;
 	}
 
@@ -37,5 +37,7 @@ public class LibroCallback implements Callback<Libro>{
 	System.out.println(libro.getId()+" "+libro.getTitulo()+" "+libro.getNumpag());
 
 	}
+
+
 
 }

@@ -9,6 +9,7 @@ class LibroHandlerModel
     public static function getLibro($id)
     {
         $listaLibros = null;
+        $devolverUnicoLibro = false;
 
         $db = DatabaseModel::getInstance();
         $db_connection = $db->getConnection();
@@ -32,6 +33,7 @@ class LibroHandlerModel
 
 
             if ($id != null) {
+                $devolverUnicoLibro = true;
                 $query = $query . " WHERE " . \ConstantesDB\ConsLibrosModel::COD . " = ?";
             }
 
@@ -69,6 +71,9 @@ class LibroHandlerModel
 //            }
         }
         $db_connection->close();
+        if($devolverUnicoLibro){
+            $listaLibros =$listaLibros[0];
+        }
 
         return $listaLibros;
     }

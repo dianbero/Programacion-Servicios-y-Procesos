@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="452db8b4-f249-48d5-88ac-9a3a9f076b5c" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,27 +27,32 @@
   <component name="PhpWebServerValidation" deployment_server_id="627e3a76-a47f-4da9-b190-4eaf40e6316e" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="REMOTE" web_path_to_validation_script="http://127.0.0.1/" />
   <component name="ProjectId" id="1TYTNOxihVQA5pEnwxYn4OfwRHs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="PEDIR LIBROS" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request" server_name="biblioteca.devel" url="/libro">
       <method v="2" />
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -67,6 +71,7 @@
       <workItem from="1574839488712" duration="3054000" />
       <workItem from="1575373290531" duration="591000" />
       <workItem from="1575393774087" duration="6323000" />
+      <workItem from="1575444166316" duration="2054000" />
     </task>
     <servers />
   </component>
@@ -85,6 +90,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="311" y="58" width="800" height="677" key="#Deployment" timestamp="1575447681687">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="311" y="58" width="800" height="677" key="#Deployment/67.27.1299.741/1366.0.1366.768@67.27.1299.741" timestamp="1575447681687" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1575444170702">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1366.768@67.27.1299.741" timestamp="1575444170702" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

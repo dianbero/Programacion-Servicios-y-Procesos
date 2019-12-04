@@ -46,6 +46,9 @@ public class Principal {
 		LibroInterface libroInter = retrofit.create(LibroInterface.class);
 
 		libroInter.getLibro(1).enqueue(libroCallback);
+//		libroInter.getTitulo().enqueue(libroCallback);
+
+//		libroInter.crearLibro().enqueue(libroCallback);
 
 
 		

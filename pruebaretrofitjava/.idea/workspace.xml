@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f477f4de-9e9b-4f3e-b8c3-c6fb748b0f9e" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,19 +12,30 @@
   </component>
   <component name="ProjectId" id="1UBxQ1q0p78BRgywVbVVl5MjV7F" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/macasado-pruebaretrofitjava-3a64fe4428ea/pruebaRetrofitJava/src" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -40,6 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574843769905</updated>
       <workItem from="1574843774356" duration="123000" />
+      <workItem from="1575444199679" duration="2359000" />
     </task>
     <servers />
   </component>
@@ -51,10 +62,30 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1507" y="41" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575446454501">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1507" y="41" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575446454501" />
+    <state x="1890" y="275" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1575445150959">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1890" y="275" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575445150959" />
+    <state x="1705" y="210" key="com.intellij.ide.util.TipDialog" timestamp="1575444199940">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1705" y="210" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575444199940" />
+    <state x="1713" y="29" width="670" height="676" key="search.everywhere.popup" timestamp="1575444987083">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1713" y="29" width="670" height="676" key="search.everywhere.popup/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575444987083" />
   </component>
 </project>
