@@ -32,7 +32,7 @@ Comienza Ejercicio:
 URIS
 /Pizzas
 /Pizzas/{id}
-/Ingrdientes
+/Ingredientes
 /Ingredientes/{id}
 /Masas
 /Masas/{id}
@@ -65,7 +65,7 @@ tipo_de_masa": "fina"
 
 //O con enlace, que se hará dependiendo de la información
 ["http://www.server.com/rest/pizza/margarita",
-"http://www.server.com/rest/pizza/barbacoa",
+"http://www.server.com/rest/pizz´	a/barbacoa",
 "http://www.server.com/rest/pizza/hawaiana"]
 
 Respuesta:
