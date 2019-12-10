@@ -16,7 +16,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1UBxfrmcW5U6CWgFwWe6HIwnx7U" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -30,6 +30,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RunManager">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -76,6 +80,7 @@
       <workItem from="1574843898972" duration="2480000" />
       <workItem from="1575370531975" duration="3347000" />
       <workItem from="1575446591834" duration="4432000" />
+      <workItem from="1575975290321" duration="2904000" />
     </task>
     <servers />
   </component>
@@ -96,6 +101,14 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="1632" y="48" width="800" height="677" key="#Deployment" timestamp="1575977643164">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1632" y="48" width="800" height="677" key="#Deployment/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575977643164" />
+    <state x="1644" y="44" width="800" height="677" key="#Options" timestamp="1575977578462">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1644" y="44" width="800" height="677" key="#Options/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575977578462" />
     <state x="1507" y="41" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575446849196">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
@@ -112,22 +125,22 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1707" y="0" width="664" height="768" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575449542304" />
-    <state width="1320" height="230" key="GridCell.Tab.0.bottom" timestamp="1575451024056">
+    <state width="1320" height="126" key="GridCell.Tab.0.bottom" timestamp="1575977775657">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="230" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575451024056" />
-    <state width="1320" height="230" key="GridCell.Tab.0.center" timestamp="1575451024056">
+    <state width="1320" height="126" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575977775657" />
+    <state width="1320" height="126" key="GridCell.Tab.0.center" timestamp="1575977775657">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="230" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575451024056" />
-    <state width="1320" height="230" key="GridCell.Tab.0.left" timestamp="1575451024056">
+    <state width="1320" height="126" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575977775657" />
+    <state width="1320" height="126" key="GridCell.Tab.0.left" timestamp="1575977775657">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="230" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575451024056" />
-    <state width="1320" height="230" key="GridCell.Tab.0.right" timestamp="1575451024056">
+    <state width="1320" height="126" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575977775657" />
+    <state width="1320" height="126" key="GridCell.Tab.0.right" timestamp="1575977775657">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="230" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575451024056" />
+    <state width="1320" height="126" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575977775657" />
     <state width="1320" height="230" key="GridCell.Tab.1.bottom" timestamp="1575451024056">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
@@ -144,10 +157,14 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1320" height="230" key="GridCell.Tab.1.right/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575451024056" />
-    <state x="1730" y="230" key="com.intellij.ide.util.TipDialog" timestamp="1575370531953">
+    <state x="1532" y="0" width="1024" height="768" key="SettingsEditor" timestamp="1575977675392">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1730" y="230" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575370531953" />
+    <state x="1532" y="0" width="1024" height="768" key="SettingsEditor/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575977675392" />
+    <state x="1730" y="230" key="com.intellij.ide.util.TipDialog" timestamp="1575975293221">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1730" y="230" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575975293221" />
     <state x="1842" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575372832600">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
@@ -164,11 +181,6 @@
           <url>file://$PROJECT_DIR$/src/ListaLibrosCallback.java</url>
           <line>16</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ListaLibrosCallback.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

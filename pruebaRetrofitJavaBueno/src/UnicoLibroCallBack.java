@@ -19,6 +19,7 @@ public class UnicoLibroCallBack implements Callback<Libro> {
 
 	    libro = response.body();
 
+
         Headers cabeceras = response.headers();
         contentType = cabeceras.get("Content-Type");
         code = response.code();

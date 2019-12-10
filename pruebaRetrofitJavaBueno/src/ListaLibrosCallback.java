@@ -37,8 +37,7 @@ public class ListaLibrosCallback implements Callback<List<Libro>>{
 	message = resp.message();
 	isSuccesful = resp.isSuccessful();
 	
-//	System.out.println(libro.getId()+" "+libro.getTitulo()+" "+libro.getNumpag());
-	System.out.println(listaLibros.get(0).getId()+" "+listaLibros.get(0).getTitulo()+" "+ listaLibros.get(0).getNumpag());
+//	System.out.println(listaLibros.get(0).getId()+" "+listaLibros.get(0).getTitulo()+" "+ listaLibros.get(0).getNumpag());
 
 	if(listaLibros.isEmpty()){
 		System.out.printf("No funciona, o no tiene nada");
