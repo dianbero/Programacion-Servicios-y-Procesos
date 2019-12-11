@@ -31,6 +31,7 @@ public class Principal {
 		
 		Retrofit retrofit;
 		ListaLibrosCallback listaLibrosCallback = new ListaLibrosCallback();
+		PostLibro postLibro = new PostLibro();
 		UnicoLibroCallBack unicoLibroCallBack = new UnicoLibroCallBack();
 
 		retrofit = new Retrofit.Builder()
@@ -40,7 +41,17 @@ public class Principal {
 		
 		LibroInterface libroInter = retrofit.create(LibroInterface.class);
 
+		//Nuevo libro
+		Libro libro = new Libro();
+
 		libroInter.getLibro(1).enqueue(unicoLibroCallBack);
+		libroInter.crearLibro(libro).enqueue(postLibro);
+
+
+
+
+
+
 		//TODO revisar
 //		libroInter.getListaLibro(1).enqueue(listaLibrosCallback);
 

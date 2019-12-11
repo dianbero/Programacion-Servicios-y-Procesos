@@ -18,9 +18,9 @@ public interface LibroInterface {
 //	@GET("libro/{numpag}")
 //	Call<Libro> getNumpag (@Path("numpag") String numpag);
 //
-//	//Falta interfaz
-//	@POST ("libro")
-//	Call<Libro> crearLibro (@Body Libro libro);
+	//Falta interfaz //TODO ver como se hace
+	@POST ("libro")
+	Call<Libro> crearLibro (@Body Libro libro);
 //
 //	//Falta interfaz
 //	@PUT("libro")

@@ -46,7 +46,4 @@ public class ListaLibrosCallback implements Callback<List<Libro>>{
 	}
 
 	}
-
-
-
 }
