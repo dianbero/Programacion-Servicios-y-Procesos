@@ -7,7 +7,23 @@ public class Libro {
 	private String titulo;
 	private String numpag;
 
-	
+	public Libro(){
+		this.id = 0;
+		this.titulo = "Título Por defecto";
+		this.numpag = "123";
+	}
+	//Sin id para post y put
+	public Libro(String titulo, String numpag){
+		this.titulo = titulo;
+		this.numpag = numpag;
+	}
+
+	public Libro(int id, String titulo, String numpag){
+		this.id = id;
+		this.titulo = titulo;
+		this.numpag = numpag;
+	}
+
 	public int getId() {
 		return id;
 	}

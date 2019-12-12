@@ -39,11 +39,14 @@ public class ListaLibrosCallback implements Callback<List<Libro>>{
 	
 //	System.out.println(listaLibros.get(0).getId()+" "+listaLibros.get(0).getTitulo()+" "+ listaLibros.get(0).getNumpag());
 
-	if(listaLibros.isEmpty()){
-		System.out.printf("No funciona, o no tiene nada");
-	}else {
-		System.out.println(listaLibros.get(0).getId()+" "+listaLibros.get(0).getTitulo()+" "+ listaLibros.get(0).getNumpag());
-	}
+		for(int i=0; i<listaLibros.size(); i++){
+			System.out.println(listaLibros.get(i).getId()+" "+listaLibros.get(i).getTitulo()+" "+ listaLibros.get(i).getNumpag());
+		}
+//	if(listaLibros.isEmpty()){
+//		System.out.printf("No funciona, o no tiene nada");
+//	}else {
+//		System.out.println(listaLibros.get(0).getId()+" "+listaLibros.get(0).getTitulo()+" "+ listaLibros.get(0).getNumpag());
+//	}
 
 	}
 }

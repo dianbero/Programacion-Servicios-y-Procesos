@@ -3,7 +3,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class PostLibro implements Callback<Libro> {
+public class PostLibroCallBack implements Callback<Libro> {
     @Override
     public void onResponse(Call<Libro> call, Response<Libro> response) {
         Libro libro;
@@ -21,9 +21,11 @@ public class PostLibro implements Callback<Libro> {
         message = response.message();
         isSuccesful = response.isSuccessful();
 
-        libro.setId(5);
-        libro.setNumpag("123");
-        libro.setTitulo("Harry Potter");
+        System.out.println(libro.getId()+" "+libro.getTitulo()+" "+libro.getNumpag());
+//
+//        libro.setId(5);
+//        libro.setNumpag("123");
+//        libro.setTitulo("Harry Potter");
 //        System.out.println("El libro introducido es: " + libro.getId() + libro.getTitulo() + libro.getNumpag());
     }
 

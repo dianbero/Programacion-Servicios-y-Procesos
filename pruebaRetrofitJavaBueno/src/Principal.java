@@ -31,8 +31,10 @@ public class Principal {
 		
 		Retrofit retrofit;
 		ListaLibrosCallback listaLibrosCallback = new ListaLibrosCallback();
-		PostLibro postLibro = new PostLibro();
-		UnicoLibroCallBack unicoLibroCallBack = new UnicoLibroCallBack();
+		PostLibroCallBack postLibroCallBack = new PostLibroCallBack();
+		UnicoLibroCallBack unicoLibroCallBack = new UnicoLibroCallBack(); //get un solo libro
+		BorrarLibroCallBack borrarLibroCallBack = new BorrarLibroCallBack();
+
 
 		retrofit = new Retrofit.Builder()
 							   .baseUrl(SERVER_URL)
@@ -42,10 +44,14 @@ public class Principal {
 		LibroInterface libroInter = retrofit.create(LibroInterface.class);
 
 		//Nuevo libro
-		Libro libro = new Libro();
+		Libro libro = new Libro("Harry Potter", "123");
+		Libro libroActualizado = new Libro("Harry Potter 2", "500");
 
 		libroInter.getLibro(1).enqueue(unicoLibroCallBack);
-		libroInter.crearLibro(libro).enqueue(postLibro);
+//		libroInter.getListaLibro().enqueue(listaLibrosCallback);
+//		libroInter.crearLibro(libro).enqueue(postLibroCallBack);
+//		libroInter.actualizarLibro(libroActualizado).enqueue(postLibroCallBack);
+//		libroInter.borrarLibro(2).enqueue(borrarLibroCallBack);
 
 
 

@@ -1,0 +1,20 @@
+Ejercicio PHP
+
+-PAGINA 1: lista de equipos, con nombre de equipo y numero de jugadores. 
+
+	Por cada equipo, un boton de informacion que te lleve a la lista de jugadores del equipo(Pagina 2), otro para poder eliminar equipo.
+
+	Ademas de añadir un boton para añadir equipo.
+
+	Al darle añadir equipo, te enviará a otra pagina con el formulario de creacion de equipo.
+
+
+-PAGINA 2: lista de jugadores del equipo seleccionado, donde puedes eliminar, añadir o editar un jugador.
+
+	Cada jugador tendra nombre, apellidos, edad y una FOTO.
+
+	Al darle a añadir/editar te llevará a otra pagina donde se encontrará el formulario. Cuando se trate de añadir el form estará vacio, y cuando sea editar, el form estara cargado con el juegador a editar.
+
+	El numero de jugadores de cada equipo debe actualizarse siempre que se elimine o añada otro.
+
+	Al eliminar un equipo, deben eliminarse todos sus jugadores.
