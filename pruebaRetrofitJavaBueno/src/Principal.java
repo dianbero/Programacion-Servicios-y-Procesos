@@ -45,11 +45,13 @@ public class Principal {
 
 		//Nuevo libro
 		Libro libro = new Libro("Harry Potter", "123");
+		Libro libroPorDefecto = new Libro();
 		Libro libroActualizado = new Libro("Harry Potter 2", "500");
 
-		libroInter.getLibro(1).enqueue(unicoLibroCallBack);
-//		libroInter.getListaLibro().enqueue(listaLibrosCallback);
+//		libroInter.getLibro(1).enqueue(unicoLibroCallBack); //Funciona
+		libroInter.getListaLibro().enqueue(listaLibrosCallback); //Funciona //TODO revisar porque en la lista todos los libros tienen id = 0;
 //		libroInter.crearLibro(libro).enqueue(postLibroCallBack);
+//		libroInter.crearLibro(libroPorDefecto).enqueue(postLibroCallBack);
 //		libroInter.actualizarLibro(libroActualizado).enqueue(postLibroCallBack);
 //		libroInter.borrarLibro(2).enqueue(borrarLibroCallBack);
 

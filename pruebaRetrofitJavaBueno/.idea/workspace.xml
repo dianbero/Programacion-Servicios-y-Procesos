@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c614849-dec4-4340-8310-611c059b3cb0" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,18 +36,6 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Principal" />
@@ -69,6 +56,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -84,6 +83,7 @@
       <workItem from="1575446591834" duration="4432000" />
       <workItem from="1575975290321" duration="3082000" />
       <workItem from="1576049068258" duration="3735000" />
+      <workItem from="1576135305147" duration="2490000" />
     </task>
     <servers />
   </component>
@@ -128,22 +128,22 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1707" y="0" width="664" height="768" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575449542304" />
-    <state width="1320" height="126" key="GridCell.Tab.0.bottom" timestamp="1576051601311">
+    <state width="1320" height="126" key="GridCell.Tab.0.bottom" timestamp="1576150989799">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="126" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1576051601311" />
-    <state width="1320" height="126" key="GridCell.Tab.0.center" timestamp="1576051601310">
+    <state width="1320" height="126" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1576150989799" />
+    <state width="1320" height="126" key="GridCell.Tab.0.center" timestamp="1576150989799">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="126" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1576051601310" />
-    <state width="1320" height="126" key="GridCell.Tab.0.left" timestamp="1576051601310">
+    <state width="1320" height="126" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1576150989799" />
+    <state width="1320" height="126" key="GridCell.Tab.0.left" timestamp="1576150989799">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="126" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1576051601310" />
-    <state width="1320" height="126" key="GridCell.Tab.0.right" timestamp="1576051601310">
+    <state width="1320" height="126" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1576150989799" />
+    <state width="1320" height="126" key="GridCell.Tab.0.right" timestamp="1576150989799">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="126" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1576051601310" />
+    <state width="1320" height="126" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1576150989799" />
     <state width="1320" height="230" key="GridCell.Tab.1.bottom" timestamp="1576049704849">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
@@ -164,10 +164,10 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1532" y="0" width="1024" height="768" key="SettingsEditor/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575977675392" />
-    <state x="1730" y="230" key="com.intellij.ide.util.TipDialog" timestamp="1576049073260">
+    <state x="1730" y="230" key="com.intellij.ide.util.TipDialog" timestamp="1576135406903">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1730" y="230" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1576049073260" />
+    <state x="1730" y="230" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1576135406903" />
     <state x="1842" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575372832600">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>

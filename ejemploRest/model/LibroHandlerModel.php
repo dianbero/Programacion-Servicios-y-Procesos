@@ -104,9 +104,11 @@ class LibroHandlerModel
         $numpag = $nuevoLibro->getNumpag();
 
         $sentenciaSql = "INSERT INTO " . \ConstantesDB\ConsLibrosModel::TABLE_NAME . " VALUES (?,?,?);";
+//        $sentenciaSql = "INSERT INTO " . \ConstantesDB\ConsLibrosModel::TABLE_NAME . " VALUES (?,?);";
         $prep_query = $db_connection->prepare($sentenciaSql);
         //Paso parámetros al prepareStatement
-        $prep_query->bind_param("isi", $codigo, $titulo, $numpag);
+//        $prep_query->bind_param("isi", $codigo, $titulo, $numpag);
+        $prep_query->bind_param("si", $titulo, $numpag);
         $exito = $prep_query->execute();
         return $exito;
     }

@@ -21,7 +21,7 @@ public class PostLibroCallBack implements Callback<Libro> {
         message = response.message();
         isSuccesful = response.isSuccessful();
 
-        System.out.println(libro.getId()+" "+libro.getTitulo()+" "+libro.getNumpag());
+//        System.out.println(libro.getId()+" "+libro.getTitulo()+" "+libro.getNumpag());
 //
 //        libro.setId(5);
 //        libro.setNumpag("123");

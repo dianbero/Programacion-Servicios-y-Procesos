@@ -16,8 +16,7 @@ public interface LibroInterface {
 	//realizar peticiçión de único libro
 	@GET("libro/{id}")
 	Call<Libro> getLibro (@Path("id") int id);
-//
-	//Falta interfaz //TODO ver como se hace
+
 	@POST ("libro")
 	Call<Libro> crearLibro (@Body Libro libro);
 

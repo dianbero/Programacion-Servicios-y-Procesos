@@ -26,7 +26,6 @@ public class ListaLibrosCallback implements Callback<List<Libro>>{
 	int code;
 	String message;
 	boolean isSuccesful;
-	//TODO hacer list para recoger array
 		List<Libro> listaLibros;
 		listaLibros = resp.body();
 //	libro = resp.body();
@@ -39,7 +38,7 @@ public class ListaLibrosCallback implements Callback<List<Libro>>{
 	
 //	System.out.println(listaLibros.get(0).getId()+" "+listaLibros.get(0).getTitulo()+" "+ listaLibros.get(0).getNumpag());
 
-		for(int i=0; i<listaLibros.size(); i++){
+		for(int i=0; i<listaLibros.size(); i++){ //Añadirle comprobación de que si está vacía muestre un mensaje indicándolo
 			System.out.println(listaLibros.get(i).getId()+" "+listaLibros.get(i).getTitulo()+" "+ listaLibros.get(i).getNumpag());
 		}
 //	if(listaLibros.isEmpty()){
