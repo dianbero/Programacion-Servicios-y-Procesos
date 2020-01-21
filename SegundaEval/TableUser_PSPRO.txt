@@ -1,0 +1,4 @@
+CREATE TABLE Usuario
+(idUsuario int NOT NULL PRIMARY KEY,
+nombreUsuario VARCHAR(30) NOT NULL,
+password VARCHAR(50) NOT NULL); //ver cómo hacer hash, porque no sé longitud de hash
