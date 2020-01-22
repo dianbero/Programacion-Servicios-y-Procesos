@@ -1,0 +1,12 @@
+1.-Entrar en la maquina vagrant.
+2.-Ir a www y crear un escritorio.
+3.-Crear una pagina dentro de ese escritorio(Ej:nano/vim Index.php) 
+4.-Entrar en apache2/sites-available
+5.-cp 000.default.conf nombreDirectorio.conf
+6.-nano/vim nombreDirectorio.conf
+7.-Configurar las rutas del server
+8.-sudo a2ensite nombreDirectorio.conf
+9.-sudo systemctl reload apache2
+10.- Abrir un terminal nuevo
+11.-sudo nano/vim etc/hosts
+12.-Configurar ruta

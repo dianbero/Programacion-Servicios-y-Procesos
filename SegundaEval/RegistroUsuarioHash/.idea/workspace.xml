@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c88fbe79-d725-49a1-9515-2eac93d6642b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1Wk50Q0lDcpjOGWYip2X1pNjV4L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DBUsuarios" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c88fbe79-d725-49a1-9515-2eac93d6642b" name="Default Changelist" comment="" />
+      <created>1579680528607</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579680528607</updated>
+      <workItem from="1579680530084" duration="4211000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1644" y="44" width="800" height="677" key="#Deployment" timestamp="1579684621870">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1644" y="44" width="800" height="677" key="#Deployment/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1579684621870" />
+    <state x="1801" y="23" width="476" height="720" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579684076445">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1801" y="23" width="476" height="720" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1579684076445" />
+    <state x="1466" y="98" width="1166" height="570" key="DirDiffDialog" timestamp="1579683518183">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1466" y="98" width="1166" height="570" key="DirDiffDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1579683518183" />
+    <state x="1459" y="196" width="1169" height="373" key="NewPhpClassDialog" timestamp="1579684060658">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1459" y="196" width="1169" height="373" key="NewPhpClassDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1579684060658" />
+    <state x="1844" y="308" width="399" height="149" key="NewPhpFileDialog" timestamp="1579683592225">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1844" y="308" width="399" height="149" key="NewPhpFileDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1579683592225" />
+    <state x="1538" y="18" key="SettingsEditor" timestamp="1579680873341">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1538" y="18" key="SettingsEditor/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1579680873341" />
+    <state x="1945" y="116" width="187" height="533" key="ftp.server.browser" timestamp="1579684453827">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1945" y="116" width="187" height="533" key="ftp.server.browser/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1579684453827" />
+  </component>
+</project>
