@@ -59,6 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579680528607</updated>
       <workItem from="1579680530084" duration="4211000" />
+      <workItem from="1579767977741" duration="259000" />
     </task>
     <servers />
   </component>
@@ -90,6 +91,10 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1538" y="18" key="SettingsEditor/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1579680873341" />
+    <state x="1705" y="210" key="com.intellij.ide.util.TipDialog" timestamp="1579767979003">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1705" y="210" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1579767979003" />
     <state x="1945" y="116" width="187" height="533" key="ftp.server.browser" timestamp="1579684453827">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
