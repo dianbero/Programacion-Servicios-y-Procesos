@@ -7,4 +7,11 @@ https://www.youtube.com/watch?v=XfOxyQcbawc
 
 http://pabletoreto.blogspot.com/2015/04/login-php-con-hash-de-password.html
 
+función a usar para crear hash:
 
+password_hash($_POST['psw'], PASSWORD_DEFAULT);
+
+para comprobar:
+password_verify ( string $password , string $hash ) 
+
+$hash-> contraseña en hash
