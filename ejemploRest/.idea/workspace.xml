@@ -80,6 +80,7 @@
       <workItem from="1579677771327" duration="4171000" />
       <workItem from="1579684536433" duration="433000" />
       <workItem from="1580210300410" duration="1640000" />
+      <workItem from="1580282662207" duration="5883000" />
     </task>
     <servers />
   </component>
@@ -100,11 +101,11 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="311" y="58" width="800" height="677" key="#Deployment" timestamp="1579684596738">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="1623" y="32" width="800" height="677" key="#Deployment" timestamp="1580282881655">
+      <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="289" y="34" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1576092593133" />
-    <state x="1623" y="32" key="#Deployment/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575977929035" />
+    <state x="1623" y="32" width="800" height="677" key="#Deployment/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1580282881655" />
     <state x="311" y="58" width="800" height="677" key="#Deployment/67.27.1299.741/1366.0.1366.768@67.27.1299.741" timestamp="1579684596738" />
     <state x="361" y="70" key="#Options" timestamp="1576092057859">
       <screen x="0" y="0" width="1536" height="824" />
@@ -135,11 +136,11 @@
     </state>
     <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575978589855" />
     <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1366.768@67.27.1299.741" timestamp="1575976110953" />
-    <state x="1687" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1579677773828">
+    <state x="1687" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1580282664051">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="361" y="219" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576117365574" />
-    <state x="1687" y="204" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1579677773828" />
+    <state x="1687" y="204" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1580282664051" />
     <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1366.768@67.27.1299.741" timestamp="1576135315758" />
     <state x="581" y="106" key="ftp.server.browser" timestamp="1576092167393">
       <screen x="0" y="0" width="1536" height="824" />
@@ -149,16 +150,5 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="625" y="305" key="publish.login/0.0.1536.824@0.0.1536.824" timestamp="1576091987019" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/index.php</url>
-          <line>40</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

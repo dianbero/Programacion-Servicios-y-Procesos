@@ -1,3 +1,5 @@
 en laruta para la API se hará un POST
 https://pruebahash/POST...
 o algo así, pero que quede claro que se inserta un usuario, por lo que es un POST
+
+Hay que recoger datos de la cabecera donde está la autenticación

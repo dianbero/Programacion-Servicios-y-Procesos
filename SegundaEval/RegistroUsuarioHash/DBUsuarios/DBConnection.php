@@ -1,7 +1,7 @@
 <?php
 
 
-class DBUsuario
+class DBConnection
 {
 
     private $_connection;
