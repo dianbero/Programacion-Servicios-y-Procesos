@@ -7,11 +7,24 @@ class Usuario
     private $nombreUsuario;
     private $password;
 
-    public function _construct($idUsuario, $nombreUsuario, $password){
+    public function __construct($idUsuario, $nombreUsuario, $password){
         $this->idUsuario = $idUsuario;
-        $this->nombreUsuario = nombreUsuario;
+        $this->nombreUsuario = $nombreUsuario;
         $this->password = $password;
 }
+
+    //seralize:
+    public function jsonSerialize(){
+            return array(
+                'idUsuario'=>$this->idUsuario,
+                'nombreUsuario'=>$this->nombreUsuario,
+                'password'=>$this->password
+            );
+    }
+
+    public function __sleep(){
+            return array('idUsuario','nombreUsuario','password');
+    }
 
     /**
      * @return mixed

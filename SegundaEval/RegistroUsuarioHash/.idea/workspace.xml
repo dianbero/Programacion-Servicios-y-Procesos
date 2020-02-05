@@ -62,6 +62,8 @@
       <workItem from="1579767977741" duration="864000" />
       <workItem from="1580209228928" duration="2890000" />
       <workItem from="1580283796488" duration="5152000" />
+      <workItem from="1580887825553" duration="193000" />
+      <workItem from="1580888044374" duration="4690000" />
     </task>
     <servers />
   </component>
@@ -105,17 +107,17 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1538" y="18" key="SettingsEditor/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1579680873341" />
-    <state x="1705" y="210" key="com.intellij.ide.util.TipDialog" timestamp="1580209229480">
+    <state x="1705" y="210" key="com.intellij.ide.util.TipDialog" timestamp="1580887826727">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1705" y="210" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1580209229480" />
+    <state x="1705" y="210" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1580887826727" />
     <state x="1945" y="116" width="187" height="533" key="ftp.server.browser" timestamp="1579684453827">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1945" y="116" width="187" height="533" key="ftp.server.browser/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1579684453827" />
-    <state x="1914" y="279" width="260" height="207" key="publish.login" timestamp="1580284210887">
+    <state x="1914" y="279" width="260" height="207" key="publish.login" timestamp="1580888100091">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1914" y="279" width="260" height="207" key="publish.login/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1580284210887" />
+    <state x="1914" y="279" width="260" height="207" key="publish.login/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1580888100091" />
   </component>
 </project>

@@ -7,6 +7,7 @@ class DBConnection
     private $_connection;
     private static $_instance;
 
+    //Get instance of DataBase
     public static function getInstance()
     {
         if (!(self::$_instance instanceof self)) { // If no instance of Database, then make one
@@ -17,8 +18,6 @@ class DBConnection
 
     private function __construct()
     {
-
-
         // Load configuration as an array. Use the actual location of your configuration file
         // The configuration file should be like this:
         //[database]
@@ -69,7 +68,5 @@ class DBConnection
         self::$_instance=null;
         return self::getInstance()->getConnection();
     }
-
-
 
 }

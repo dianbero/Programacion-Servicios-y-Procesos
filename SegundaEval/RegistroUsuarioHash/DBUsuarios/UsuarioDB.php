@@ -1,7 +1,7 @@
 <?php
 
-//require_once "ConsUsuariosDB.php";
-require_once "Usuario.php";
+require_once "ConsUsuariosDB.php";
+//require_once "Usuario.php";
 
 class UsuarioDB
 {
