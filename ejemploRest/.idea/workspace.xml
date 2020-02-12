@@ -36,6 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunManager">
     <configuration name="PEDIR LIBROS" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request" server_name="biblioteca.devel" url="/libro">
@@ -82,6 +83,7 @@
       <workItem from="1580210300410" duration="1640000" />
       <workItem from="1580282662207" duration="5883000" />
       <workItem from="1580888020483" duration="2880000" />
+      <workItem from="1581495316581" duration="1977000" />
     </task>
     <servers />
   </component>
@@ -137,6 +139,10 @@
     </state>
     <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1575978589855" />
     <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1366.768@67.27.1299.741" timestamp="1575976110953" />
+    <state x="205" y="31" key="SettingsEditor" timestamp="1581498365465">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="205" y="31" key="SettingsEditor/67.27.1299.741/1366.0.1366.768@67.27.1299.741" timestamp="1581498365465" />
     <state x="1687" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1580282664051">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>

@@ -9,29 +9,31 @@ class UsuarioDB
         $db = DBConnection::getInstance();
         $db_connection = $db->getConnection();
 
+        if(isset($_POST['submit'])) {
 //        help:
 //        https://stackoverflow.com/questions/35813147/insert-user-input-from-textbox-to-database-php-to-phpmyadmin-using-mysql
 
-        $idUsuario = $nuevoUsuario->getIdUsuario();
-        $nombreUsuario = $nuevoUsuario->getNombreUsuario();
-        $password = $nuevoUsuario->getPassword();
+//        $idUsuario = $nuevoUsuario->getIdUsuario();
+//        $nombreUsuario = $nuevoUsuario->getNombreUsuario();
+//        $password = $nuevoUsuario->getPassword();
+
+//        $nombreUsuario = $_POST['nombre'];
+//        $password = $_POST['txtPassword'];
 
 
+            $query = "INSERT INTO " . \ConstantesUsuarios\ConsUsuariosDB::TABLE_NAME . " VALUES (?,?);";
 
-        $query = "INSERT INTO " . \ConstantesUsuarios\ConsUsuariosDB::TABLE_NAME . " VALUES (1,?,?);";
+            $prep_query = $db_connection->prepare($query);
+            $prep_query->bind_param('ss', $nombreUsuario, $password);
 
-        $prep_query = $db_connection->prepare($query);
-        $prep_query->bind_param('iss', $idUsuario, $nombreUsuario, $password);
+            $exito = $prep_query->execute();
 
-        $exito = $prep_query->execute();
-
-        if($exito == 1){
-            echo "Exito";
-        }else{
-            echo "Cagada";
+            if ($exito == 1) {
+                echo "<script>alert('Éxito');</script>";
+            } else {
+                echo "<script>alert('Fallo');</script>";
+            }
         }
-
-
 //----------------------------------//
 //        if(isset($_POST['submit'])){
 ////            $idUsuario = $_POST['idUsuario'];

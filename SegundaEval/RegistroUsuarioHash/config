@@ -1,6 +1,6 @@
 [database]
-host = localhost
-;host = pruebahash
+;host = localhost
+host = pruebahash
 dbname = RegistroUsuariosBD
 username = root
 password = root

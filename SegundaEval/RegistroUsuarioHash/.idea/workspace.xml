@@ -12,6 +12,20 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -23,17 +37,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/DBUsuarios" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DBUsuarios" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -64,6 +79,7 @@
       <workItem from="1580283796488" duration="5152000" />
       <workItem from="1580887825553" duration="193000" />
       <workItem from="1580888044374" duration="4690000" />
+      <workItem from="1581492047844" duration="5765000" />
     </task>
     <servers />
   </component>
@@ -75,14 +91,18 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1644" y="44" width="800" height="677" key="#Deployment/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1580209946742" />
+    <state x="1644" y="44" width="800" height="677" key="#SQL_Dialects" timestamp="1581498076353">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1644" y="44" width="800" height="677" key="#SQL_Dialects/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1581498076353" />
     <state x="1644" y="44" width="800" height="677" key="#Web_Browsers" timestamp="1580284196766">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1644" y="44" width="800" height="677" key="#Web_Browsers/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1580284196766" />
-    <state x="1507" y="41" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580284265166">
+    <state x="1507" y="41" width="808" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581498299066">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1507" y="41" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1580284265166" />
+    <state x="1507" y="41" width="808" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1581498299066" />
     <state x="1757" y="188" width="574" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580210647529">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
@@ -103,21 +123,21 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1844" y="308" width="399" height="149" key="NewPhpFileDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1579683592225" />
-    <state x="1538" y="18" key="SettingsEditor" timestamp="1579680873341">
+    <state x="1538" y="18" key="SettingsEditor" timestamp="1581498385588">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1538" y="18" key="SettingsEditor/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1579680873341" />
-    <state x="1705" y="210" key="com.intellij.ide.util.TipDialog" timestamp="1580887826727">
+    <state x="1538" y="18" key="SettingsEditor/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1581498385588" />
+    <state x="1705" y="210" key="com.intellij.ide.util.TipDialog" timestamp="1581492048748">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1705" y="210" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1580887826727" />
+    <state x="1705" y="210" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1581492048748" />
     <state x="1945" y="116" width="187" height="533" key="ftp.server.browser" timestamp="1579684453827">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1945" y="116" width="187" height="533" key="ftp.server.browser/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1579684453827" />
-    <state x="1914" y="279" width="260" height="207" key="publish.login" timestamp="1580888100091">
+    <state x="1914" y="279" width="260" height="207" key="publish.login" timestamp="1581494957982">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1914" y="279" width="260" height="207" key="publish.login/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1580888100091" />
+    <state x="1914" y="279" width="260" height="207" key="publish.login/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1581494957982" />
   </component>
 </project>
