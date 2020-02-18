@@ -1,15 +1,17 @@
 <?php
 
 require_once "ConsUsuariosDB.php";
+
 //require_once "Usuario.php";
 
 class UsuarioDB
 {
-    public static function insertarDatos($nuevoUsuario){
+    public static function insertarDatos()
+    {
         $db = DBConnection::getInstance();
         $db_connection = $db->getConnection();
 
-        if(isset($_POST['submit'])) {
+        if (isset($_POST['submit'])) {
 //        help:
 //        https://stackoverflow.com/questions/35813147/insert-user-input-from-textbox-to-database-php-to-phpmyadmin-using-mysql
 
@@ -17,9 +19,9 @@ class UsuarioDB
 //        $nombreUsuario = $nuevoUsuario->getNombreUsuario();
 //        $password = $nuevoUsuario->getPassword();
 
-//        $nombreUsuario = $_POST['nombre'];
+            $nombreUsuario = $_POST['nombre'];
 //        $password = $_POST['txtPassword'];
-
+            $password = password_hash($_POST['txtPassword'], PASSWORD_DEFAULT); //función de hash
 
             $query = "INSERT INTO " . \ConstantesUsuarios\ConsUsuariosDB::TABLE_NAME . " VALUES (?,?);";
 
@@ -62,6 +64,6 @@ class UsuarioDB
 ////                echo "Error al insertar";
 ////            }
 
-        }
+    }
 
 }
