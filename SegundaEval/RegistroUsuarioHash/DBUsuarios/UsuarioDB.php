@@ -1,8 +1,8 @@
 <?php
 
-require_once "ConsUsuariosDB.php";
+//require_once "ConsUsuariosDB.php";
 
-//require_once "Usuario.php";
+require_once "DBConnection.php";
 
 class UsuarioDB
 {
@@ -23,7 +23,8 @@ class UsuarioDB
 //        $password = $_POST['txtPassword'];
             $password = password_hash($_POST['txtPassword'], PASSWORD_DEFAULT); //función de hash
 
-            $query = "INSERT INTO " . \ConstantesUsuarios\ConsUsuariosDB::TABLE_NAME . " VALUES (?,?);";
+//            $query = "INSERT INTO " . \ConstantesUsuarios\ConsUsuariosDB::TABLE_NAME . " VALUES (?,?);";
+            $query = "INSERT " . "INTO Usuarios VALUES (?,?);";
 
             $prep_query = $db_connection->prepare($query);
             $prep_query->bind_param('ss', $nombreUsuario, $password);
