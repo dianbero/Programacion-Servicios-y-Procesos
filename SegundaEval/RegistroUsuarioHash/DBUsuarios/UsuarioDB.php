@@ -1,7 +1,7 @@
 <?php
 
 //require_once "ConsUsuariosDB.php";
-require_once "DBConnection.php";
+include "DBConnection.php";
 
 class UsuarioDB
 {
@@ -18,7 +18,7 @@ class UsuarioDB
 //        $nombreUsuario = $nuevoUsuario->getNombreUsuario();
 //        $password = $nuevoUsuario->getPassword();
 
-
+            $idUsuario = 1;
             $nombreUsuario = $_POST['nombre'];
 //        $password = $_POST['txtPassword'];
             $password = password_hash($_POST['txtPassword'], PASSWORD_DEFAULT); //función de hash
@@ -28,11 +28,11 @@ class UsuarioDB
             /*En phpMyAdmin aunque tengo puesto que sea autogenerada, no me acepta el insert con sólo dos valores,
             necesita el valor del id también, hay que revisar eso, ver cómo se insertan valores para tablas con
             id autogenerado en mySql*/
-            $query = "INSERT"."INTO Usuarios VALUES (?,?,?);";
+            $query = "INSERT" . "INTO Usuarios VALUES (?,?,?);";
 
             $prep_query = $db_connection->prepare($query);
 //            $prep_query->bind_param('ss', $nombreUsuario, $password);
-            $prep_query->bind_param('iss', $nombreUsuario, $password);
+            $prep_query->bind_param('iss', $idUsuario, $nombreUsuario, $password);
 
             $exito = $prep_query->execute();
 
@@ -42,6 +42,8 @@ class UsuarioDB
                 echo "<script>alert('Fallo');</script>";
             }
         }
+
+
 //----------------------------------//
 //        if(isset($_POST['submit'])){
 ////            $idUsuario = $_POST['idUsuario'];

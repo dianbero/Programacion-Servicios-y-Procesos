@@ -51,11 +51,12 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/DBUsuarios" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/DBUsuarios" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.UsuarioDB.php">
@@ -108,6 +109,7 @@
       <workItem from="1582100747903" duration="1717000" />
       <workItem from="1582103686719" duration="599000" />
       <workItem from="1582627909921" duration="3252000" />
+      <workItem from="1582702008661" duration="3190000" />
     </task>
     <servers />
   </component>
@@ -203,22 +205,22 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1320" height="119" key="GridCell.Tab.2.right/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582631161942" />
-    <state x="1459" y="196" width="1169" height="373" key="NewPhpClassDialog" timestamp="1580211025864">
+    <state x="1459" y="196" width="1169" height="373" key="NewPhpClassDialog" timestamp="1582702681799">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1459" y="196" width="1169" height="373" key="NewPhpClassDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1580211025864" />
-    <state x="1844" y="308" width="399" height="149" key="NewPhpFileDialog" timestamp="1579683592225">
+    <state x="1459" y="196" width="1169" height="373" key="NewPhpClassDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582702681799" />
+    <state x="1844" y="308" width="399" height="149" key="NewPhpFileDialog" timestamp="1582702690781">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1844" y="308" width="399" height="149" key="NewPhpFileDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1579683592225" />
+    <state x="1844" y="308" width="399" height="149" key="NewPhpFileDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582702690781" />
     <state x="1538" y="18" key="SettingsEditor" timestamp="1582628797278">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1538" y="18" key="SettingsEditor/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582628797278" />
-    <state x="1705" y="210" key="com.intellij.ide.util.TipDialog" timestamp="1582627909693">
+    <state x="1705" y="210" key="com.intellij.ide.util.TipDialog" timestamp="1582702013255">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1705" y="210" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582627909693" />
+    <state x="1705" y="210" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582702013255" />
     <state x="1817" y="303" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582630051530">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
@@ -227,9 +229,9 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1945" y="116" width="187" height="533" key="ftp.server.browser/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1579684453827" />
-    <state x="1914" y="279" width="260" height="207" key="publish.login" timestamp="1582628174303">
+    <state x="1914" y="279" width="260" height="207" key="publish.login" timestamp="1582703998768">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1914" y="279" width="260" height="207" key="publish.login/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582628174303" />
+    <state x="1914" y="279" width="260" height="207" key="publish.login/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582703998768" />
   </component>
 </project>
