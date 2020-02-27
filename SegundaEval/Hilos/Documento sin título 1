@@ -1,0 +1,20 @@
+clases:
+-Productor(con runnable para producir las cosas)
+-Consumidor(mismo que anterior pero para consumir las cosas)
+
+recursos/almacen
+control/handler(para notify etc)
+
+
+el main a parte(con llamadas a start() a productor y consumidor etc)
+
+//
+Se puede probar con una letra o número directamente
+
+Lo ideal probarlo con array para guardar cada cosa que se produce y consume
+
+que el consumidor vaya cogiendo lo que el productor genera
+(ir poniendo mensajes en cada proceso, para ir viendo lo que ocurre)
+Se puede hacer un sleep aleatorio (de 1 a 5, por ejemplo)en cada proceso para simular que tarda tiempo en realizar cada proceso
+
+
