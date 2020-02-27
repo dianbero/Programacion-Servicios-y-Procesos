@@ -15,7 +15,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="1YKzYnJuNpdSAb9FhbrwD5mznci" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -33,6 +33,32 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Hilos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -44,6 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582706123220</updated>
       <workItem from="1582706127452" duration="1135000" />
+      <workItem from="1582788377345" duration="2412000" />
     </task>
     <servers />
   </component>
@@ -55,6 +82,10 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1644" y="44" width="847" height="677" key="#Project_Structure/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582706134923" />
+    <state x="488" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1582789630437">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582789630437" />
     <state x="1890" y="275" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582706610814">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
@@ -67,13 +98,53 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1822" y="141" width="735" height="484" key="FileChooserDialogImpl/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582706606628" />
+    <state width="1323" height="315" key="GridCell.Tab.0.bottom" timestamp="1582790782186">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="315" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582790782186" />
+    <state width="1323" height="315" key="GridCell.Tab.0.center" timestamp="1582790782186">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="315" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582790782186" />
+    <state width="1323" height="315" key="GridCell.Tab.0.left" timestamp="1582790782186">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="315" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582790782186" />
+    <state width="1323" height="315" key="GridCell.Tab.0.right" timestamp="1582790782186">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="315" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582790782186" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1582790431061">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582790431061" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1582790431061">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582790431061" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1582790431061">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582790431061" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1582790431061">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582790431061" />
     <state x="1532" y="0" width="1024" height="768" key="SettingsEditor" timestamp="1582706431719">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1532" y="0" width="1024" height="768" key="SettingsEditor/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582706431718" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1582788377471">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582788377471" />
     <state x="1366" y="0" width="1356" height="768" key="new project wizard" timestamp="1582706660005">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1366" y="0" width="1356" height="768" key="new project wizard/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582706660005" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1582789577921">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1582789577921" />
   </component>
 </project>
