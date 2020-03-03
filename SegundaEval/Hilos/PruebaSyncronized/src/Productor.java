@@ -15,7 +15,7 @@ public class Productor implements Runnable {
         int num;
         for (int i = 0; i < 10; i++) {
             num = random.nextInt(10);
-            recursos.lista.add(num);
+            recursos.getLista().add(num);
             System.out.println("Productor ha generado nuevo número: " + num);
         }
     }

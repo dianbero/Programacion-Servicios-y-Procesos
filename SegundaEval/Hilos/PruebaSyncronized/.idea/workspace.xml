@@ -7,6 +7,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PruebaSyncronized" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -32,6 +35,20 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="PruebaSyncronized" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -56,6 +73,7 @@
       <updated>1582803666041</updated>
       <workItem from="1582803670058" duration="410000" />
       <workItem from="1583220215422" duration="1236000" />
+      <workItem from="1583232929433" duration="3251000" />
     </task>
     <servers />
   </component>
@@ -76,17 +94,34 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1857" y="95" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1582803958611">
+    <state x="1857" y="95" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1583234697994">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1857" y="95" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582803958611" />
+    <state x="1857" y="95" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1583234697994" />
     <state x="1890" y="301" width="308" height="163" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582803717381">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1890" y="301" width="308" height="163" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582803717381" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1583220212012">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1320" height="184" key="GridCell.Tab.0.bottom" timestamp="1583236062189">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="184" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1583236062189" />
+    <state width="1320" height="184" key="GridCell.Tab.0.center" timestamp="1583236062188">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="184" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1583236062188" />
+    <state width="1320" height="184" key="GridCell.Tab.0.left" timestamp="1583236062188">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="184" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1583236062188" />
+    <state width="1320" height="184" key="GridCell.Tab.0.right" timestamp="1583236062189">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="184" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1583236062189" />
+    <state x="1745" y="199" key="com.intellij.ide.util.TipDialog" timestamp="1583232929088">
+      <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1583220212012" />
+    <state x="1745" y="199" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1583232929088" />
   </component>
 </project>
