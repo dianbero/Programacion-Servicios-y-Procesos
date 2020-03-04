@@ -1,9 +1,11 @@
-import com.sun.corba.se.spi.monitoring.MonitoredObject;
+import java.util.Random;
 
 public class Controlador {
     //clase para los notify etc
     //Implementar clase
     Object monitoredObject = new Object();
+    Random random = new Random();
+    int tiempoEsperaRandom = random.nextInt(5);
 
     boolean haSidoNotificado = false;
 
@@ -21,7 +23,7 @@ public class Controlador {
                 try {
                     monitoredObject.wait();
                     System.out.println("El consumidor está esperando");
-                    Thread.sleep(2000);
+                    Thread.sleep(tiempoEsperaRandom);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
