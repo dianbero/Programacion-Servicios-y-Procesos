@@ -5,24 +5,30 @@ public class Controlador {
     //Implementar clase
     Object monitoredObject = new Object();
     Random random = new Random();
-    int tiempoEsperaRandom = random.nextInt(5);
+    int tiempoEsperaRandom;
 
     boolean haSidoNotificado = false;
 
-    public void doNotify() {
+    public void doNotify(String nombre) {
         synchronized (monitoredObject) {
             haSidoNotificado = true;
-            monitoredObject.notify();
-            System.out.println("El productor ha notificado");
+            tiempoEsperaRandom = random.nextInt(8);
+            try {
+                Thread.sleep(tiempoEsperaRandom);
+                monitoredObject.notify();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println("El " + nombre + " ha notificado");
         }
     }
 
-    public void doWait() {
+    public void doWait(String nombre) {
         synchronized (monitoredObject) {
             while (!haSidoNotificado) {
                 try {
                     monitoredObject.wait();
-                    System.out.println("El consumidor está esperando");
+                    System.out.println("El " + nombre + " está esperando");
                     Thread.sleep(tiempoEsperaRandom);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
@@ -32,5 +38,4 @@ public class Controlador {
             }
         }
     }
-
 }

@@ -75,6 +75,7 @@
       <workItem from="1583220215422" duration="1236000" />
       <workItem from="1583232929433" duration="3251000" />
       <workItem from="1583309880034" duration="1357000" />
+      <workItem from="1583913143983" duration="3958000" />
     </task>
     <servers />
   </component>
@@ -103,26 +104,71 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1890" y="301" width="308" height="163" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582803717381" />
-    <state width="1320" height="184" key="GridCell.Tab.0.bottom" timestamp="1583313379634">
+    <state width="1320" height="230" key="GridCell.Tab.0.bottom" timestamp="1583916404352">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="184" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1583313379634" />
-    <state width="1320" height="184" key="GridCell.Tab.0.center" timestamp="1583313379634">
+    <state width="1320" height="230" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1583916404352" />
+    <state width="1320" height="230" key="GridCell.Tab.0.center" timestamp="1583916404352">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="184" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1583313379634" />
-    <state width="1320" height="184" key="GridCell.Tab.0.left" timestamp="1583313379634">
+    <state width="1320" height="230" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1583916404352" />
+    <state width="1320" height="230" key="GridCell.Tab.0.left" timestamp="1583916404352">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="184" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1583313379634" />
-    <state width="1320" height="184" key="GridCell.Tab.0.right" timestamp="1583313379634">
+    <state width="1320" height="230" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1583916404352" />
+    <state width="1320" height="230" key="GridCell.Tab.0.right" timestamp="1583916404352">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="184" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1583313379634" />
-    <state x="1745" y="199" key="com.intellij.ide.util.TipDialog" timestamp="1583309879111">
+    <state width="1320" height="230" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1583916404352" />
+    <state width="1320" height="230" key="GridCell.Tab.1.bottom" timestamp="1583916404675">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="230" key="GridCell.Tab.1.bottom/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1583916404675" />
+    <state width="1320" height="230" key="GridCell.Tab.1.center" timestamp="1583916404675">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="230" key="GridCell.Tab.1.center/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1583916404675" />
+    <state width="1320" height="230" key="GridCell.Tab.1.left" timestamp="1583916404675">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="230" key="GridCell.Tab.1.left/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1583916404675" />
+    <state width="1320" height="230" key="GridCell.Tab.1.right" timestamp="1583916404675">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="230" key="GridCell.Tab.1.right/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1583916404675" />
+    <state x="1745" y="199" key="com.intellij.ide.util.TipDialog" timestamp="1583913215578">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1583220212012" />
-    <state x="1745" y="199" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1583309879111" />
+    <state x="1745" y="199" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1583913215578" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Controlador.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Consumidor.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PruebaSyncronized$Main.ic" NAME="Main Coverage Results" MODIFIED="1583916251242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
