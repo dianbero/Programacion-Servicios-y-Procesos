@@ -23,7 +23,7 @@ public class PostsCallBack implements Callback<Post> {
         mensaje = response.message();
         exito = response.isSuccessful();
 
-        System.out.println("Código: " + codigo + " \nMensaje: " + mensaje + "Es éxito: " + exito +"\n\n");
+        System.out.println("Código: " + codigo + " \nMensaje: " + mensaje + " \nEs éxito: " + exito +"\n\n");
 
         //Muestra datos del objeto recibido
         System.out.println(post.toString());
